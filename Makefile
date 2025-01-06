@@ -18,3 +18,6 @@ migdel:
 
 install:
 	pip install -r requirements.txt
+
+celery:
+	celery -A root worker -l INFO
